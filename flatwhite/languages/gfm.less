@@ -1,4 +1,5 @@
-.syntax--source.syntax--gfm {
+.syntax--source.syntax--gfm,
+.syntax--text.syntax--md {
   .syntax--markup {
     &.syntax--heading {
       display: inline-block;
@@ -48,6 +49,10 @@
     .syntax--link { .syntax--reset; }
 
     .syntax--punctuation.syntax--definition { .syntax--blue-sec; }
+  }
+
+  .syntax--punctuation {
+    opacity: .5;
   }
 
   .syntax--comment {

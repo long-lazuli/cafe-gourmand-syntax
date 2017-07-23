@@ -1,9 +1,8 @@
 {
-  "name": "flatwhite-syntax",
+  "name": "cafe-gourmand-syntax",
   "theme": "syntax",
-  "main": "./lib/flatwhite",
   "version": "0.8.1",
-  "description": "Colored backgrounds used for code highlighting.",
+  "description": "Theme based on flatwhite syntax with some mignardises.",
   "keywords": [
     "light",
     "soft",
@@ -11,7 +10,7 @@
     "syntax",
     "theme"
   ],
-  "repository": "https://github.com/biletskyy/flatwhite-syntax",
+  "repository": "https://github.com/long-lazuli/cafe-gourmand-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

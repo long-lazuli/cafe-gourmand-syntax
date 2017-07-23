@@ -1,10 +1,11 @@
 .syntax--source.syntax--scss {
 
-  .syntax--meta {
-    .syntax--variable { .syntax--blue; }
-  }
+  .syntax--variable:not(.syntax--meta) { .syntax--blue; }
 
   .syntax--punctuation.syntax--separator.syntax--key-value,
   .syntax--punctuation.syntax--terminator { .syntax--sec; }
 
+  .syntax--entity.syntax--name.syntax--tag.syntax--reference {
+    .syntax--red;
+  }
 }

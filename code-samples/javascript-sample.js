@@ -1,6 +1,11 @@
 
 // 1. Example ----------------------
 
+/** 
+
+
+*/
+
 var Sales = "Toyota";
 
 function CarTypes(name) {
@@ -119,7 +124,12 @@ enhance(bindingContext: Object = {}, applicationHost: string | Element = null): 
 
   return new Promise(resolve => {
     let engine = this.container.get(TemplatingEngine);
-    this.root = engine.enhance({container: this.container, element: this.host, resources: this.resources, bindingContext: bindingContext});
+    this.root = engine.enhance({
+      container: this.container,
+      element: this.host,
+      resources: this.resources,
+      bindingContext: bindingContext
+    });
     this.root.attached();
     this._onAureliaComposed();
     resolve(this);
